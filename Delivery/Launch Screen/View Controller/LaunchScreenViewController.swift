@@ -12,14 +12,15 @@ final class LaunchScreenViewController: UIViewController, ViewSpecificController
     //MARK: - Root View
     typealias RootView = LaunchScreenView
     
+    //MARK: - Lifecycles
     override func viewDidLoad() {
         super.viewDidLoad()
-        print("12421412421")
+        DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 1) {
+            self.resetTabBar()
+        }
     }
 }
 
 extension LaunchScreenViewController {
-    private func appearanceSettings() {
-        
-    }
+    private func appearanceSettings() {}
 }
