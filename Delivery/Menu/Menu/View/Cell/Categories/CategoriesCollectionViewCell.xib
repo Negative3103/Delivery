@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="21507" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="collection view cell content view" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CategoriesCollectionViewCell" id="mqq-Ec-FOR" customClass="CategoriesCollectionViewCell" customModule="Delivery" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="88" height="32"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="CN8-p4-0BJ">
+                <rect key="frame" x="0.0" y="0.0" width="88" height="32"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Wwr-Hu-n0L">
+                        <rect key="frame" x="0.0" y="0.0" width="88" height="32"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <color key="textColor" name="pink40"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Wwr-Hu-n0L" firstAttribute="leading" secondItem="CN8-p4-0BJ" secondAttribute="leading" id="0mT-sE-J14"/>
+                    <constraint firstAttribute="bottom" secondItem="Wwr-Hu-n0L" secondAttribute="bottom" id="11T-ZW-d8S"/>
+                    <constraint firstAttribute="trailing" secondItem="Wwr-Hu-n0L" secondAttribute="trailing" id="aqy-Tp-cL4"/>
+                    <constraint firstItem="Wwr-Hu-n0L" firstAttribute="top" secondItem="CN8-p4-0BJ" secondAttribute="top" id="cV7-jH-8g3"/>
+                </constraints>
+            </collectionViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="Wwr-Hu-n0L" id="9n0-XF-Mri"/>
+            </connections>
+            <point key="canvasLocation" x="104" y="-15"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="pink40">
+            <color red="0.99215686274509807" green="0.22745098039215686" blue="0.41176470588235292" alpha="0.40000000000000002" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

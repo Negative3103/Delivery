@@ -15,4 +15,5 @@ enum AssetsColor: String {
     case white
     case mainBackground
     case shadowColor
+    case customBlack
 }
