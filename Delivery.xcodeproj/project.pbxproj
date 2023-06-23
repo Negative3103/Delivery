@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D1AA7B772A45719E009E3111 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA7B762A45719E009E3111 /* TabBarController.swift */; };
+		D1AA7B812A4571F4009E3111 /* MenuCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA7B802A4571F4009E3111 /* MenuCoordinator.swift */; };
+		D1AA7B832A4571FC009E3111 /* ContactsCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA7B822A4571FC009E3111 /* ContactsCoordinator.swift */; };
+		D1AA7B852A457206009E3111 /* ProfileCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA7B842A457206009E3111 /* ProfileCoordinator.swift */; };
+		D1AA7B872A457210009E3111 /* BasketCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1AA7B862A457210009E3111 /* BasketCoordinator.swift */; };
 		D1E4BEEF2A445C6E0045319A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4BEEE2A445C6E0045319A /* AppDelegate.swift */; };
 		D1E4BEF32A445C6E0045319A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1E4BEF22A445C6E0045319A /* ViewController.swift */; };
 		D1E4BEF62A445C6E0045319A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D1E4BEF42A445C6E0045319A /* Main.storyboard */; };
@@ -25,6 +30,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D1AA7B762A45719E009E3111 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		D1AA7B802A4571F4009E3111 /* MenuCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCoordinator.swift; sourceTree = "<group>"; };
+		D1AA7B822A4571FC009E3111 /* ContactsCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsCoordinator.swift; sourceTree = "<group>"; };
+		D1AA7B842A457206009E3111 /* ProfileCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCoordinator.swift; sourceTree = "<group>"; };
+		D1AA7B862A457210009E3111 /* BasketCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCoordinator.swift; sourceTree = "<group>"; };
 		D1E4BEEB2A445C6E0045319A /* Delivery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Delivery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1E4BEEE2A445C6E0045319A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1E4BEF22A445C6E0045319A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +65,78 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D1AA7B752A45718A009E3111 /* Tabbar Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA7B762A45719E009E3111 /* TabBarController.swift */,
+			);
+			path = "Tabbar Controller";
+			sourceTree = "<group>";
+		};
+		D1AA7B782A4571A6009E3111 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA7B862A457210009E3111 /* BasketCoordinator.swift */,
+				D1AA7B7F2A4571E6009E3111 /* Basket */,
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
+		D1AA7B792A4571B1009E3111 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA7B842A457206009E3111 /* ProfileCoordinator.swift */,
+				D1AA7B7E2A4571E0009E3111 /* Profile */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D1AA7B7A2A4571B9009E3111 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA7B822A4571FC009E3111 /* ContactsCoordinator.swift */,
+				D1AA7B7D2A4571DB009E3111 /* Contacts */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D1AA7B7B2A4571C4009E3111 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				D1AA7B802A4571F4009E3111 /* MenuCoordinator.swift */,
+				D1AA7B7C2A4571D3009E3111 /* Menu */,
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D1AA7B7C2A4571D3009E3111 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Menu;
+			sourceTree = "<group>";
+		};
+		D1AA7B7D2A4571DB009E3111 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+		D1AA7B7E2A4571E0009E3111 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		D1AA7B7F2A4571E6009E3111 /* Basket */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Basket;
+			sourceTree = "<group>";
+		};
 		D1E4BEE22A445C6E0045319A = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +158,11 @@
 			children = (
 				D1E4BF082A445DD50045319A /* Additional Materials */,
 				D1E4BF052A445DAF0045319A /* Launch Screen */,
+				D1AA7B752A45718A009E3111 /* Tabbar Controller */,
+				D1AA7B7B2A4571C4009E3111 /* Menu */,
+				D1AA7B7A2A4571B9009E3111 /* Contacts */,
+				D1AA7B792A4571B1009E3111 /* Profile */,
+				D1AA7B782A4571A6009E3111 /* Basket */,
 				D1E4BEEE2A445C6E0045319A /* AppDelegate.swift */,
 				D1E4BEF22A445C6E0045319A /* ViewController.swift */,
 				D1E4BEF42A445C6E0045319A /* Main.storyboard */,
@@ -230,16 +317,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D1AA7B872A457210009E3111 /* BasketCoordinator.swift in Sources */,
 				D1E4BEF32A445C6E0045319A /* ViewController.swift in Sources */,
 				D1E4BF122A445EAC0045319A /* UIImage.swift in Sources */,
 				D1E4BF102A445E950045319A /* UIColor.swift in Sources */,
+				D1AA7B832A4571FC009E3111 /* ContactsCoordinator.swift in Sources */,
 				D1E4BEF92A445C6E0045319A /* Delivery.xcdatamodeld in Sources */,
 				D1E4BF0D2A445E000045319A /* AssetsColor.swift in Sources */,
 				D1E4BF1E2A445F3D0045319A /* LaunchScreenView.swift in Sources */,
 				D1E4BF072A445DC10045319A /* LaunchScreenViewController.swift in Sources */,
 				D1E4BF172A445EDD0045319A /* ViewSpecificController.swift in Sources */,
+				D1AA7B812A4571F4009E3111 /* MenuCoordinator.swift in Sources */,
 				D1E4BEEF2A445C6E0045319A /* AppDelegate.swift in Sources */,
+				D1AA7B772A45719E009E3111 /* TabBarController.swift in Sources */,
 				D1E4BF212A445F810045319A /* CustomView.swift in Sources */,
+				D1AA7B852A457206009E3111 /* ProfileCoordinator.swift in Sources */,
 				D1E4BF0B2A445DFB0045319A /* AssetsImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
